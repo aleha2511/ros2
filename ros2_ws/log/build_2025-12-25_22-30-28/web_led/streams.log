@@ -1,0 +1,24 @@
+[1.803s] Invoking command in '/home/alesha/ros2/ros2_ws/build/web_led': PYTHONPATH=/home/alesha/ros2/ros2_ws/build/web_led/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alesha/ros2/ros2_ws/install/web_led/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alesha/ros2/ros2_ws/build/web_led/build --no-deps symlink_data
+[2.536s] running develop
+[2.882s] running egg_info
+[2.885s] creating web_led.egg-info
+[2.918s] writing web_led.egg-info/PKG-INFO
+[2.920s] writing dependency_links to web_led.egg-info/dependency_links.txt
+[2.922s] writing entry points to web_led.egg-info/entry_points.txt
+[2.923s] writing requirements to web_led.egg-info/requires.txt
+[2.923s] writing top-level names to web_led.egg-info/top_level.txt
+[2.924s] writing manifest file 'web_led.egg-info/SOURCES.txt'
+[3.029s] reading manifest file 'web_led.egg-info/SOURCES.txt'
+[3.029s] writing manifest file 'web_led.egg-info/SOURCES.txt'
+[3.080s] running build_ext
+[3.080s] Creating /home/alesha/ros2/ros2_ws/install/web_led/lib/python3.12/site-packages/web-led.egg-link (link to .)
+[3.085s] Installing web_led_app script to /home/alesha/ros2/ros2_ws/install/web_led/lib/web_led
+[3.085s] 
+[3.085s] Installed /home/alesha/ros2/ros2_ws/build/web_led
+[3.085s] running symlink_data
+[3.088s] creating /home/alesha/ros2/ros2_ws/install/web_led/share/ament_index
+[3.089s] creating /home/alesha/ros2/ros2_ws/install/web_led/share/ament_index/resource_index
+[3.089s] creating /home/alesha/ros2/ros2_ws/install/web_led/share/ament_index/resource_index/packages
+[3.089s] symbolically linking /home/alesha/ros2/ros2_ws/build/web_led/resource/web_led -> /home/alesha/ros2/ros2_ws/install/web_led/share/ament_index/resource_index/packages
+[3.089s] symbolically linking /home/alesha/ros2/ros2_ws/build/web_led/package.xml -> /home/alesha/ros2/ros2_ws/install/web_led/share/web_led
+[3.254s] Invoked command in '/home/alesha/ros2/ros2_ws/build/web_led' returned '0': PYTHONPATH=/home/alesha/ros2/ros2_ws/build/web_led/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alesha/ros2/ros2_ws/install/web_led/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alesha/ros2/ros2_ws/build/web_led/build --no-deps symlink_data
