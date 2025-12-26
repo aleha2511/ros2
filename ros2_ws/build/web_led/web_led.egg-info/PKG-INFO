@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: web-led
+Version: 0.1.0
+Summary: Web interface for LED control using Flask and ROS 2
+Maintainer: Aleksei
+Maintainer-email: azarada552@gmail.com
+License: Apache-2.0

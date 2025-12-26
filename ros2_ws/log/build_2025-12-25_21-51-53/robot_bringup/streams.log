@@ -1,0 +1,26 @@
+[1.503s] Invoking command in '/home/alesha/ros2/ros2_ws/build/robot_bringup': AMENT_PREFIX_PATH=/home/alesha/ros2/ros2_ws/install/web_led:/home/alesha/ros2/ros2_ws/install/led_control:/home/alesha/ros2/ros2_ws/install/robot_bringup:/opt/ros/jazzy PYTHONPATH=/home/alesha/ros2/ros2_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alesha/ros2/ros2_ws/install/robot_bringup/lib/python3.12/site-packages:/home/alesha/ros2/ros2_ws/build/web_led:/home/alesha/ros2/ros2_ws/install/web_led/lib/python3.12/site-packages:/home/alesha/ros2/ros2_ws/build/led_control:/home/alesha/ros2/ros2_ws/install/led_control/lib/python3.12/site-packages:/home/alesha/ros2/ros2_ws/build/robot_bringup:/home/alesha/ros2/ros2_ws/install/robot_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alesha/ros2/ros2_ws/build/robot_bringup/build --no-deps symlink_data
+[1.893s] running develop
+[2.153s] running egg_info
+[2.153s] creating robot_bringup.egg-info
+[2.180s] writing robot_bringup.egg-info/PKG-INFO
+[2.180s] writing dependency_links to robot_bringup.egg-info/dependency_links.txt
+[2.181s] writing entry points to robot_bringup.egg-info/entry_points.txt
+[2.181s] writing requirements to robot_bringup.egg-info/requires.txt
+[2.181s] writing top-level names to robot_bringup.egg-info/top_level.txt
+[2.181s] writing manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[2.232s] reading manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[2.233s] writing manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[2.257s] running build_ext
+[2.257s] Creating /home/alesha/ros2/ros2_ws/install/robot_bringup/lib/python3.12/site-packages/robot-bringup.egg-link (link to .)
+[2.258s] Installing robot_bringup_nop script to /home/alesha/ros2/ros2_ws/install/robot_bringup/bin
+[2.258s] 
+[2.258s] Installed /home/alesha/ros2/ros2_ws/build/robot_bringup
+[2.259s] running symlink_data
+[2.259s] creating /home/alesha/ros2/ros2_ws/install/robot_bringup/share/ament_index
+[2.259s] creating /home/alesha/ros2/ros2_ws/install/robot_bringup/share/ament_index/resource_index
+[2.259s] creating /home/alesha/ros2/ros2_ws/install/robot_bringup/share/ament_index/resource_index/packages
+[2.259s] symbolically linking /home/alesha/ros2/ros2_ws/build/robot_bringup/resource/robot_bringup -> /home/alesha/ros2/ros2_ws/install/robot_bringup/share/ament_index/resource_index/packages
+[2.259s] symbolically linking /home/alesha/ros2/ros2_ws/build/robot_bringup/package.xml -> /home/alesha/ros2/ros2_ws/install/robot_bringup/share/robot_bringup
+[2.259s] creating /home/alesha/ros2/ros2_ws/install/robot_bringup/share/robot_bringup/launch
+[2.260s] symbolically linking /home/alesha/ros2/ros2_ws/build/robot_bringup/launch/bringup.launch.py -> /home/alesha/ros2/ros2_ws/install/robot_bringup/share/robot_bringup/launch
+[2.376s] Invoked command in '/home/alesha/ros2/ros2_ws/build/robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/alesha/ros2/ros2_ws/install/web_led:/home/alesha/ros2/ros2_ws/install/led_control:/home/alesha/ros2/ros2_ws/install/robot_bringup:/opt/ros/jazzy PYTHONPATH=/home/alesha/ros2/ros2_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alesha/ros2/ros2_ws/install/robot_bringup/lib/python3.12/site-packages:/home/alesha/ros2/ros2_ws/build/web_led:/home/alesha/ros2/ros2_ws/install/web_led/lib/python3.12/site-packages:/home/alesha/ros2/ros2_ws/build/led_control:/home/alesha/ros2/ros2_ws/install/led_control/lib/python3.12/site-packages:/home/alesha/ros2/ros2_ws/build/robot_bringup:/home/alesha/ros2/ros2_ws/install/robot_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alesha/ros2/ros2_ws/build/robot_bringup/build --no-deps symlink_data

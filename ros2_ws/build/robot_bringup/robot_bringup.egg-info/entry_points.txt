@@ -1,0 +1,2 @@
+[console_scripts]
+robot_bringup_nop = robot_bringup.nop:main

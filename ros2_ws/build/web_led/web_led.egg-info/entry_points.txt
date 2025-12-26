@@ -1,0 +1,2 @@
+[console_scripts]
+web_led_app = web_led.app:main

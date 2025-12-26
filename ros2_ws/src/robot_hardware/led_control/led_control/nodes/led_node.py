@@ -12,15 +12,15 @@ CHIP = 4
 # -------------------------------
 # Функция для безопасного захвата пина
 # -------------------------------
-def claim_gpio_safe(gpio, pin, retries=3, delay=0.5):
+def claim_gpio_safe(gpio, pin, retries=5, delay=0.5):
     for i in range(retries):
         try:
             lgpio.gpio_claim_output(gpio, pin)
             return True
-        except lgpio.error as e:
+        except lgpio.error:
             print(f"⚠️ GPIO busy, retry {i+1}/{retries}")
             time.sleep(delay)
-    raise RuntimeError("❌ Cannot claim GPIO, still busy after retries")
+    raise RuntimeError(f"❌ Cannot claim GPIO {pin} on chip {CHIP}, still busy after retries")
 
 # -------------------------------
 # Инициализация GPIO
@@ -58,11 +58,14 @@ def main(args=None):
     except KeyboardInterrupt:
         pass
     finally:
-        # Безопасно выключаем и закрываем GPIO
+        # Безопасно выключаем и освобождаем GPIO
         lgpio.gpio_write(gpio, LED_PIN, 0)
-        lgpio.gpio_close(gpio)
+        try:
+            lgpio.gpio_release(gpio, LED_PIN)
+        except Exception as e:
+            print(f"⚠️ GPIO release error: {e}")
         node.destroy_node()
-        rclpy.shutdown()
+        rclpy.try_shutdown()
 
 if __name__ == "__main__":
     main()

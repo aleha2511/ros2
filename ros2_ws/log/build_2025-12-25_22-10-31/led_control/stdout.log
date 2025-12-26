@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing led_control.egg-info/PKG-INFO
+writing dependency_links to led_control.egg-info/dependency_links.txt
+writing entry points to led_control.egg-info/entry_points.txt
+writing requirements to led_control.egg-info/requires.txt
+writing top-level names to led_control.egg-info/top_level.txt
+reading manifest file 'led_control.egg-info/SOURCES.txt'
+writing manifest file 'led_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/alesha/ros2/ros2_ws/install/led_control/lib/python3.12/site-packages/led-control.egg-link (link to .)
+Installing led_node script to /home/alesha/ros2/ros2_ws/install/led_control/lib/led_control
+
+Installed /home/alesha/ros2/ros2_ws/build/led_control
+running symlink_data

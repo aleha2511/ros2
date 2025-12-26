@@ -1,0 +1,2 @@
+[console_scripts]
+led_node = led_control.nodes.led_node:main

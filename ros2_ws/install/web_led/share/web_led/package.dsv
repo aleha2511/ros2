@@ -1,0 +1,6 @@
+source;share/web_led/hook/pythonpath.dsv
+source;share/web_led/hook/pythonpath.sh
+source;share/web_led/hook/ament_prefix_path.dsv
+source;share/web_led/hook/ament_prefix_path.sh
+source;../../build/web_led/share/web_led/hook/pythonpath_develop.dsv
+source;../../build/web_led/share/web_led/hook/pythonpath_develop.sh
