@@ -1,0 +1,24 @@
+[2.215s] Invoking command in '/home/alesha/ros2/ros2_ws/build/led_control': PYTHONPATH=/home/alesha/ros2/ros2_ws/build/led_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alesha/ros2/ros2_ws/install/led_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alesha/ros2/ros2_ws/build/led_control/build --no-deps symlink_data
+[2.820s] running develop
+[3.086s] running egg_info
+[3.086s] creating led_control.egg-info
+[3.115s] writing led_control.egg-info/PKG-INFO
+[3.117s] writing dependency_links to led_control.egg-info/dependency_links.txt
+[3.119s] writing entry points to led_control.egg-info/entry_points.txt
+[3.120s] writing requirements to led_control.egg-info/requires.txt
+[3.122s] writing top-level names to led_control.egg-info/top_level.txt
+[3.123s] writing manifest file 'led_control.egg-info/SOURCES.txt'
+[3.183s] reading manifest file 'led_control.egg-info/SOURCES.txt'
+[3.186s] writing manifest file 'led_control.egg-info/SOURCES.txt'
+[3.223s] running build_ext
+[3.224s] Creating /home/alesha/ros2/ros2_ws/install/led_control/lib/python3.12/site-packages/led-control.egg-link (link to .)
+[3.224s] Installing led_node script to /home/alesha/ros2/ros2_ws/install/led_control/lib/led_control
+[3.227s] 
+[3.228s] Installed /home/alesha/ros2/ros2_ws/build/led_control
+[3.228s] running symlink_data
+[3.228s] creating /home/alesha/ros2/ros2_ws/install/led_control/share/ament_index
+[3.228s] creating /home/alesha/ros2/ros2_ws/install/led_control/share/ament_index/resource_index
+[3.228s] creating /home/alesha/ros2/ros2_ws/install/led_control/share/ament_index/resource_index/packages
+[3.229s] symbolically linking /home/alesha/ros2/ros2_ws/build/led_control/resource/led_control -> /home/alesha/ros2/ros2_ws/install/led_control/share/ament_index/resource_index/packages
+[3.229s] symbolically linking /home/alesha/ros2/ros2_ws/build/led_control/package.xml -> /home/alesha/ros2/ros2_ws/install/led_control/share/led_control
+[3.354s] Invoked command in '/home/alesha/ros2/ros2_ws/build/led_control' returned '0': PYTHONPATH=/home/alesha/ros2/ros2_ws/build/led_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alesha/ros2/ros2_ws/install/led_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alesha/ros2/ros2_ws/build/led_control/build --no-deps symlink_data

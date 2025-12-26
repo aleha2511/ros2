@@ -15,10 +15,11 @@ button { font-size: 30px; padding: 10px 20px; margin: 10px; }
 
 <button id="btnOn" onclick="sendCmd('on')">ON</button>
 <button id="btnOff" onclick="sendCmd('off')">OFF</button>
+<button id="btnBlink" onclick="sendCmd('blink')">BLINK</button>
 <br>
 <button id="btnVoice" onclick="startVoice()">🎤 Voice</button>
 
-<div id="status">Say "on" or "off"</div>
+<div id="status">Say "on", "off", or "blink"</div>
 
 <script>
 let recognition;
@@ -38,9 +39,11 @@ if ('webkitSpeechRecognition' in window) {
         } else if (text.includes('off')) {
             sendCmd('off');
             highlightButton('btnOff');
+        } else if (text.includes('blink')) {
+            sendCmd('blink');
+            highlightButton('btnBlink');
         }
 
-        // Автоперезапуск
         recognition.stop();
     }
 
